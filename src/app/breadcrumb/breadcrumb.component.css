@@ -1,0 +1,12 @@
+.breadcrumb li {
+  display: inline;
+}
+.breadcrumb li+li:before {
+  content: " > ";
+  color: black;
+}
+.breadcrumb{
+  background-color: #e9ecef;
+  padding: 10px;  
+  color:#007bff;
+}
